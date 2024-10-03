@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectPreferences>
+<DefaultUser>skonwer</DefaultUser>
+<DefaultSecondUser></DefaultSecondUser>
+<ClientCertificateThumbprint></ClientCertificateThumbprint>
+<MultipleClientCertificateThumbprints></MultipleClientCertificateThumbprints>
+<ServerCertificateThumbprint></ServerCertificateThumbprint>
+<DefaultHostName>vpn.ucsd.edu</DefaultHostName>
+<DefaultHostAddress></DefaultHostAddress>
+<DefaultGroup>2-Step Secured - allthruucsd</DefaultGroup>
+<ProxyHost></ProxyHost>
+<ProxyPort></ProxyPort>
+<SDITokenType>hardware</SDITokenType>
+<ControllablePreferences></ControllablePreferences>
+</AnyConnectPreferences>
