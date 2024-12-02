@@ -26,7 +26,8 @@ localparam S3    = 3'b110;
 
 
 reg [2:0] nstate, pstate;
-reg inst_o, corelet_l0_rd_en_o;
+reg  corelet_l0_rd_en_o;
+reg [1:0] inst_o;
 reg [4:0]       wcounter, wcounter_q;
 reg [5:0]       xcounter, xcounter_q;
 reg [3:0]       kij_counter_q;

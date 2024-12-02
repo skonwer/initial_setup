@@ -112,7 +112,7 @@ mac_array #(
    .in_n                    (ififo_marray_weight_in),       // psum_bw*col bit
    .inst_w                  (inst_i),                       // 2 bit from ctlr
    .valid                   (marray_sfu_psum_valid),        // o/p valid from marray drives the write enable of SFU fifos
-   .format                  (~exection_mode),               // i/p format 0> o/p stat; format 1> wgt stat opposite of execution mode
+   .format                  (~execution_mode),               // i/p format 0> o/p stat; format 1> wgt stat opposite of execution mode
    .overwrite               (weight_overwrite),
    .flush                   (shift_psum_i)
 );
