@@ -25,9 +25,10 @@ module mac_array (flush, clk, reset,format, out_s, in_w, in_n, inst_w, valid,ove
  assign temp[psum_bw*col*1-1:psum_bw*col*0] = in_n;          //instead of making zero kept as in_n 
  assign valid = valid_temp[row*col-1:row*col-8];
 
-// // Generate block  
+// // Generate block 
+ genvar i;
  generate
- for (genvar i = 1; i <= row; i = i + 1) begin : gen_r
+  for (i = 1; i <= row; i = i + 1) begin : gen_r
     mac_row #(.bw(bw), .psum_bw(psum_bw) ) mac_row_instance (
         .clk(clk),
         .reset(reset),
